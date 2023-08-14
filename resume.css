@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 30px;
+    background: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 600px;
+    height: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.r1{
+    text-align: right;
+}
+
+.heading{
+    background-color: rgb(149, 149, 151);
+}
+
+.edu{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sign{
+    text-align: right;
+}
