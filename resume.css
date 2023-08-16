@@ -9,10 +9,14 @@ body{
 
 .container{
     background-color: rgba(255, 255, 255, 0.8);
-    width: 600px;
-    height: 100%;
+    width: 795px;
+    height: 1123%;
     margin: auto;
-    padding: 20px;
+    padding: 0px;
+    }
+.main{
+    padding: 50px;
+    text-align: justify;
 }
 
 h1{
@@ -25,11 +29,13 @@ h1{
 
 .heading{
     background-color: rgb(149, 149, 151);
+    padding: 2px;
+    font-size: 15px;
 }
 
 .edu{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .sign{
