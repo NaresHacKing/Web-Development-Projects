@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anchor Tag</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: rgba(0, 0, 0, 0.9);
+    }
+        .container{
+            width: 800px;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgba(225, 255, 227, 0.9);
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="main">Anchor Tag</h1>
+        <ul>
+            <!-- External Link -->
+            <li><a href="https://www.google.com/">Google</a> This is the External Link</li>
+            <!-- Internal Link -->
+            <li>Go to the <a href="#top">Top of Page</a> Internal link</li>
+            <div id="top"></div>
+            <!-- Email Address -->
+            <li>Email: <a href="mail:nareshkurapati2@gmail.com">nareshkurapati2@gmail.com</a> E-mail link</li>
+            <li>Tel: <a href="tel:+919912016747">+91 9912016747</a> Phone number link</li>
+        </ul>
+
+        <h2 id="attributes">Anchor Tag Attributes:</h2>
+        <ol>
+            <li>To <code>download</code> anything with this attribute</li>
+            <li><code>href</code> The URL that the hyperlink points to
+                <ol type="i">
+                    <li><a href="https://www.google.com/">Google</a></li>
+                    <li><a href="https://www.github.com/">Github</a></li>
+                </ol>
+            </li>
+            <li><code>target</code> Where to display the linked url (a tab, new window, or <<code>iframe</code>>)
+                <ol type="i">
+                    <li><code>_self</code>: Dispay the content in the current browising context</li>
+                    <li><code>_blank</code>: Opens a new browser window/tab and load the page.</li>
+                    <li><code>_parent</code>: Loads the parent document into an iframe element inside the current frameset</li>
+                    <li><code>_top</code>: The top most browing context</li>
+                </ol>
+            </li>
+        </ol>
+        
+        <h2 id="ex">Examples </h2>
+        <h3>External links: </h3>
+        <ol type="1">
+            <li>Click here to open <a href="https://www.google.com">Google</a></li>
+            <h4>Result: </h4>
+            <img src="./images/Google.png" alt="google" width="500"><br><br>
+            <li>Click here to open <a href="https://nareshacking.github.io/naresh/">Github</a></li>
+            <h4>Result:</h4>
+            <img src="./images/Github.png" alt="Github" width="500"><br>
+        </ol>
+        <h3>Internal links: </h3>
+        <ol>
+            <li>click here to <a href="#">Top</a> with <code>#</code> Symbol</li>
+            <li>click here to go to <a href="#main">Top</a></li>
+            <li>click here to go to Anchor Tag <a href="#attributes">Attributes</a></li>
+            <li>click here to go to <a href="#ex">Examples</a></li>
+        </ol>
+
+        <h3><code>target</code> Attribute Examples:</h3>
+        <ol>
+            <li><code>_self: </code> <strong>Open in same Window:</strong></li>
+            <dd>- Click here to open the <a target="_self" href="https://www.google.com/" >Google</a> in the same window<br>
+                - click here to open the <a target="_self" href="https://nareshacking.github.io/naresh/">Github</a> in the same window <br>
+            </dd>
+            <li><code>_blank: </code><strong>Open in a new tab</strong></li>
+            <dd>
+                - click here to open <a target="_blank" href="https://www.linkedin.com/in/naresh-kurapati-97188076/">Linked Page</a> in a new tab.<br>
+                - click here to open <a target="_blank" href="https://www.instagram.com/naresh____pro/">Instagram page</a> in a new tab.
+            </dd>
+        </ol>
+    </div>   
+</body>
+</html>
